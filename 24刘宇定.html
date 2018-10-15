@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css"> 
+
+        div{
+            margin: 200px auto;
+            width:200px;
+            height:100px;
+            overflow: hidden;
+            background-color: pink;
+        }
+        p{
+            width: 100px;
+            height: 50px;
+            background-color:pink;
+            /* border:1px solid black; */
+            transition: all 2s ease;
+        }
+        p:hover{
+            /* margin:100px; */
+            transform:scale(2,3);
+            -ms-transform:scale(2,3);        /* IE9浏览器兼容代码 */
+            -webkit-transform:scale(2,3);    /*Safari and Chrome浏览器兼容代码*/
+            -moz-transform:scale(2,3);       /*Firefox浏览器兼容代码*/
+            -o-transform:scale(2,3);        /*Opera浏览器兼容代码*/
+        }
+        </style>
+</head>
+<body>
+        <div>
+                <p>我是原来的元素</p>
+            </div>
+            <!-- <div id="div2">我是放大后的元素</div> -->
+            </body>
+</body>
+</html>
